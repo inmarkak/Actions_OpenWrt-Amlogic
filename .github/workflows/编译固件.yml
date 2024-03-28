@@ -23,7 +23,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config-full
+  CONFIG_FILE: .config-tiny
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   TZ: Asia/Shanghai
@@ -187,7 +187,7 @@ jobs:
         body: |
           ### **适用于Amlogic平台的N1盒子OpenWrt固件--全插件**
           * **固件信息：**
-          默认IP: `10.10.10.1`
+          默认IP: `192.168.1.3`
           默认用户名: `root`
           默认密码: `password`
           * **使用方法：**
